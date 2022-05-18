@@ -20,7 +20,7 @@ class MainPage(WebPage):
     search = WebElement(id='header-search')
 
     # Search button
-    search_run_button = WebElement(xpath='//button[@type="submit"]')
+    search_run_button = WebElement(xpath='//html/body/div[3]/div[2]/noindex/div/div/div[2]/div[2]/div/div/form/div/button')
 
     # Titles of the products in search results
     products_titles = ManyWebElements(xpath='//a[contains(@href, "/product-") and @title!=""]')
