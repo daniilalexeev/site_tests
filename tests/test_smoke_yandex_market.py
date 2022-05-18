@@ -15,7 +15,7 @@
 #     python3 -m pytest -v --driver Chrome --driver-path ~/chrome tests/*
 #   Remote:
 #  export SELENIUM_HOST=<moon host>
-#  export SELENIUM_PORT=44446
+#  export SELENIUM_PORT=4444
 #  pytest -v --driver Remote --capability browserName chrome tests/*
 #
 
