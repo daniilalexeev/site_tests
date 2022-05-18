@@ -23,7 +23,7 @@ import pytest
 from pages.main import MainPage
 
 
-def test_check_main_search(web_browser):
+def test_check_mainpage(web_browser):
     """ glavnaya """
 
     page = MainPage(web_browser)
